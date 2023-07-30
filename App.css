@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@400;500;600&display=swap");
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --yellow: rgba(255, 199, 70, 1);
+  --brown: #a8a2a2;
+  --black: rgba(0, 14, 8, 1);
+  --purple: rgba(105, 35, 91, 1);
+  --font: 15px;
+  --red: rgba(255, 45, 27, 1);
+  --small: 13px;
+  --smaller: 10px;
+  --big: 20px;
+  --primary: #fff;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  user-select: none;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background: #ece9e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span a {
+  color: var(--yellow);
+}
+b {
+  border-bottom: 1px solid var(--yellow);
+}
+i {
+  color: var(--purple);
+  font-size: var(--font);
+}
+.MOkx {
+  padding: 1rem 9%;
+  height: auto;
+  background: var(--primary);
+  align-items: center;
+}
+.statusBar {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.statusBar h5 {
+  color: rgba(0, 0, 0, 1);
+  font-size: var(--small);
+}
+.Bar {
+  display: flex;
+  gap: var(--font);
+}
+.MOkxImg {
+  margin-block: 100px;
+  width: 100%;
+}
+.VedasDiv {
+  text-align: center;
+  align-items: center;
+  margin-block: var(--big);
+}
+.Vedas {
+  font-size: var(--font);
+  color: var(--purple);
+}
+.MOkxVedas {
+  background: var(--purple);
+  padding: 1rem 9%;
+  height: auto;
+  align-items: center;
+}
+.VedasImg {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-block: var(--smaller);
+}
+.Text {
+  background: rgba(203, 203, 255, 1);
+  color: var(--purple);
+  font-size: var(--small);
+  align-items: center;
+  align-self: center;
+  border-radius: 6px;
+  text-align: center;
+  padding: 2px;
+  margin-top: -10px;
+  margin-inline: 100px;
+}
+.VedasFirstDiv {
+  padding: 3px;
+  margin: 2px;
+  font-size: var(--big);
+  color: var(--white);
+  text-align: left;
+}
+.VedasSecondDiv {
+  padding: 3px;
+  margin: 2px;
+  font-size: var(--small);
+  color: var(--white);
+  text-align: left;
+}
+.VedasSvg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block: var(--big);
+  gap: var(--smaller);
+}
+.Svg {
+  border-radius: 50%;
+  padding: 1px;
+  margin: 3px;
+  border: 2px solid rgba(168, 176, 175, 1);
+}
+.OR {
+  font-size: var(--font);
+  color: var(--white);
+  padding: 3px;
+}
+.ORS {
+  color: #cdd1d0;
+  font-size: var(--font);
+  padding: 3px;
+}
+.Exist {
+  color: var(--white);
+  margin-block: var(--smaller);
+  align-items: center;
+  text-align: center;
+  font-size: var(--font);
+}
+.MOkxLogin {
+  padding: 1rem 9%;
+  height: auto;
+  background: var(--primary);
+  align-items: center;
+  text-align: center;
+}
+.LogtoMok {
+  padding: 3px;
+  margin: 2px;
+  margin-top: 10px;
+  margin-block: var(--big);
+  color: var(--purple);
+  font-size: var(--font);
+}
+.LogtoMok p {
+  margin-block: var(--font);
+  font-size: var(--smaller);
+}
+.form {
+  padding: 2px;
+  margin: 2px;
+  margin-block: var(--big);
+  text-align: left;
+  color: var(--purple);
+  font-size: var(--font);
+}
+
+input {
+  color: var(--black);
+  margin-block: 5px;
+  width: 100%;
+  border: 0.5px solid var(--brown);
+}
+input ::placeholder {
+  color: var(--black);
+  font-size: var(--smaller);
+  margin: 2px;
+  padding: 2px;
+}
+.Login {
+  padding: 5px;
+  margin: 4px;
+  margin-block: var(--big);
+  margin-top: 30px;
+
+  align-items: center;
+  text-align: center;
+  color: var(--purple);
+  border-radius: 8px;
+  background: #ffc746;
+}
+.Login a {
+  color: var(--purple);
+  font-size: var(--font);
+}
+.forgot {
+  color: var(--yellow);
+  font-size: var(--font);
+}
+.SignUp {
+  padding: 5px;
+  margin: 4px;
+  margin-block: var(--smaller);
+  align-items: center;
+  text-align: center;
+  color: var(--purple);
+  border-radius: 8px;
+  background: #ffc746;
+}
+.SignUp a {
+  color: var(--purple);
+  font-size: var(--font);
+}
+
+.SignUpImg {
+  width: 100%;
+  margin-block: 3F0px;
+}
+.xmail {
+  color: var(--red);
+}
+.xmails {
+  color: var(--black);
+  margin-block: 5px;
+  width: 100%;
+  border: 0.5px solid var(--red);
+}
+.xemail {
+  color: var(--red);
+  text-align: right;
+  font-size: var(--smaller);
+}
+
+.MOkxChat {
+  padding: 1rem 9%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  background: var(--primary);
+}
+.head {
+  display: flex;
+  gap: var(--font);
+  padding: 2px;
+  margin-block: var(--big);
+  justify-content: space-between;
+}
+.AryaImgDiv {
+  display: flex;
+  justify-content: center;
+}
+.AryaImg {
+  width: 50%;
+}
+.AryaOnline {
+  width: 15%;
+  margin-left: -7px;
+  margin-bottom: -25px;
+}
+.Arya {
+  font-size: var(--font);
+  color: var(--purple);
+  margin-inline: var(--small);
+}
+.Arya p {
+  color: rgba(121, 124, 123, 1);
+  font-size: var(--smaller);
+}
+.trans {
+  margin-left: 30px;
+  color: var(--yellow);
+  font-size: var(--small);
+}
+.Chats {
+  /* background: rgba(206, 206, 206, 1); */
+  background-size: 100%;
+  padding: 2px;
+  color: var(--purple);
+  font-size: var(--small);
+}
+.Back {
+  padding: 2px;
+  margin: 2px;
+  margin-inline: 10px;
+  text-align: left;
+}
+.IconBack {
+  padding: 2px;
+  margin: 2px;
+  margin-inline: 10px;
+  text-align: left;
+  margin-block: 20px;
+}
+#GoBack{
+  /* margin: 5px; */
+  margin-block: 10px;
+  margin-inline: 10px;
+  padding: 3px;
+}
+.Chat1 {
+  margin-block: var(--big);
+  padding: 2px;
+  display: flex;
+  gap: var(--smaller);
+}
+.Chat1Img {
+  padding: 2px;
+}
+.Chat1Img img {
+  width: 30%;
+}
+.Chat1Text {
+  padding: 4px;
+  margin: 3px;
+  background: #69235b;
+  border-radius: 1px solid #69235b;
+  border-radius: var(--smaller);
+  border-top-left-radius: 1px;
+  align-items: center;
+  text-align: left;
+  color: var(--white);
+}
+.Chat1Text h5 {
+  margin: 2px;
+  margin-block: var(--smaller);
+}
+.Queries {
+  padding: 2px;
+  border-radius: 19px;
+  background: #fbbc04;
+  margin-block: var(--small);
+  text-align: left;
+}
+.Queries h5 {
+  margin: 2px;
+  padding: 2px;
+}
+.ChatsText {
+  margin-block: var(--font);
+  font-size: var(--font);
+}
+.Message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 2px;
+  background: #fff;
+  box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.13);
+}
+.Message h5 {
+  color: rgba(161, 161, 161, 1);
+  padding: 2px;
+  margin: 2px;
+  font-size: var(--small);
+}
+.Chat1Paragraph {
+  color: var(--brown);
+  font-size: var(--smaller);
+  text-align: right;
+}
+.Chat1Texts {
+  display: flex;
+  flex-direction: column;
+}
+.Reply {
+  margin-block: 30px;
+}
+.ChatReply {
+  padding: 5px;
+  margin: 3px;
+  background: rgba(251, 188, 4, 1);
+  border-radius: 1px solid rgba(251, 188, 4, 1);
+  border-radius: var(--smaller);
+  border-top-right-radius: 1px;
+  align-items: right;
+  text-align: right;
+  color: var(--white);
+}
+.ChatReply h5 {
+  margin: 2px;
+}
