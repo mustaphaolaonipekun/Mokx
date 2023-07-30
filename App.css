@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@400;500;600&display=swap");
+html {
+  font-size: 22.5%;
+}
 :root {
   --white: rgba(255, 255, 255, 1);
   --yellow: rgba(255, 199, 70, 1);
@@ -7,13 +10,13 @@
   --purple: rgba(105, 35, 91, 1);
   --font: 15px;
   --red: rgba(255, 45, 27, 1);
-  --small: 5px;
-  --smaller: 7px;
-  --big: 10px;
+  --small: 13px;
+  --smaller: 10px;
+  --big: 20px;
   --primary: #fff;
 }
+
 * {
-  box-sizing: border-box;
   outline: none;
   margin: 0;
   padding: 0;
@@ -28,7 +31,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-span a {
+
+span {
+  color: var(--yellow);
+}
+a {
   color: var(--yellow);
 }
 b {
@@ -46,10 +53,11 @@ i {
 }
 .statusBar {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin: 10px;
 }
 .statusBar h5 {
   color: rgba(0, 0, 0, 1);
@@ -63,30 +71,29 @@ i {
   margin-block: 100px;
   width: 100%;
 }
+.MOkxVedas {
+  background: var(--purple);
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+.VedasImg {
+  margin-block: var(--smaller);
+}
+.VedasImg img {
+  border-radius: 4px;
+  width: 100%;
+}
 .VedasDiv {
   text-align: center;
   align-items: center;
-  margin-block: var(--big);
+  margin-block: var(--small);
+  padding: 3px;
+  margin: 2px;
 }
 .Vedas {
   font-size: var(--font);
   color: var(--purple);
-}
-.MOkxVedas {
-  background: var(--purple);
-  padding: 2rem 9%;
-  height: auto;
-
-}
-.VedasImg {
-  margin-block: var(--smaller);
-  width: 100%;
-
- 
-}
-.VedasImg img{
-   width: 100%;
-  height: auto; border-radius: 4px;
 }
 .Text {
   background: rgba(203, 203, 255, 1);
@@ -101,18 +108,20 @@ i {
   margin-inline: 100px;
 }
 .VedasFirstDiv {
-  padding: 3px;
-  margin: 2px;
-  font-size: var(--big);
+  padding: 4px;
+  margin: 9px;
+  font-size: var(--font);
   color: var(--white);
   text-align: left;
+  max-width: 250px;
 }
 .VedasSecondDiv {
   padding: 3px;
-  margin: 2px;
+  margin: 5px;
   font-size: var(--small);
   color: var(--white);
   text-align: left;
+  max-width: 300px;
 }
 .VedasSvg {
   display: flex;
@@ -127,6 +136,7 @@ i {
   margin: 3px;
   border: 2px solid rgba(168, 176, 175, 1);
 }
+
 .OR {
   font-size: var(--font);
   color: var(--white);
@@ -145,7 +155,7 @@ i {
   font-size: var(--font);
 }
 .MOkxLogin {
-  padding: 1rem 9%;
+  padding: 1rem 3%;
   height: auto;
   background: var(--primary);
   align-items: center;
@@ -238,7 +248,7 @@ input ::placeholder {
 }
 
 .MOkxChat {
-  padding: 1rem 9%;
+  padding: 1rem 3%;
   height: auto;
   align-items: center;
   text-align: center;
@@ -297,7 +307,7 @@ input ::placeholder {
   text-align: left;
   margin-block: 20px;
 }
-#GoBack{
+#GoBack {
   /* margin: 5px; */
   margin-block: 10px;
   margin-inline: 10px;
@@ -325,6 +335,7 @@ input ::placeholder {
   align-items: center;
   text-align: left;
   color: var(--white);
+  max-width: 200px;
 }
 .Chat1Text h5 {
   margin: 2px;
