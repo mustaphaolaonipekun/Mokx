@@ -7,9 +7,9 @@
   --purple: rgba(105, 35, 91, 1);
   --font: 15px;
   --red: rgba(255, 45, 27, 1);
-  --small: 13px;
-  --smaller: 10px;
-  --big: 20px;
+  --small: 5px;
+  --smaller: 7px;
+  --big: 10px;
   --primary: #fff;
 }
 * {
@@ -74,15 +74,19 @@ i {
 }
 .MOkxVedas {
   background: var(--purple);
-  padding: 1rem 9%;
+  padding: 2rem 9%;
   height: auto;
-  align-items: center;
+
 }
 .VedasImg {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
   margin-block: var(--smaller);
+  width: 100%;
+
+ 
+}
+.VedasImg img{
+   width: 100%;
+  height: auto; border-radius: 4px;
 }
 .Text {
   background: rgba(203, 203, 255, 1);
@@ -185,7 +189,6 @@ input ::placeholder {
   margin: 4px;
   margin-block: var(--big);
   margin-top: 30px;
-
   align-items: center;
   text-align: center;
   color: var(--purple);
