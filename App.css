@@ -46,14 +46,13 @@ i {
   font-size: var(--font);
 }
 .MOkx {
-  padding: 1rem 9%;
   height: auto;
   background: var(--primary);
   align-items: center;
 }
 .statusBar {
   display: flex;
-  gap: 30px;
+  gap: 80px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -67,6 +66,19 @@ i {
   display: flex;
   gap: var(--font);
 }
+.statusBars {
+  display: flex;
+  gap: 125px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.statusBars h5 {
+  color: rgba(0, 0, 0, 1);
+  font-size: var(--small);
+}
+
 .MOkxImg {
   margin-block: 100px;
   width: 100%;
@@ -391,6 +403,7 @@ input ::placeholder {
   border-radius: 1px solid rgba(251, 188, 4, 1);
   border-radius: var(--smaller);
   border-top-right-radius: 1px;
+  margin-left: 100px;
   align-items: right;
   text-align: right;
   color: var(--white);
